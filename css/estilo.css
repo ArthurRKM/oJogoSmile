@@ -1,0 +1,92 @@
+body{
+  background-image:url(../tigre.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.invisivel{
+    display:none;
+  }
+  .visivel{
+    display:inline;
+  }
+  .inicial {
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(211, 211, 211);
+    width: 150px;
+    height: 200px;
+    border: 15px solid green;
+    padding: 10px;
+    margin: 20px;
+  }
+  .acertou {
+    text-align: center;
+    color: yellow;
+    background-color: LawnGreen;
+    width: 150px;
+    height: 200px;
+    border: 15px solid yellow;
+    padding: 10px;
+    margin: 20px;
+  }
+  .errou {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 20px;
+  }
+  .imagem-erro {
+    width: 100px;  /* Ajusta a largura da imagem */
+    height: 150px; /* Ajusta a altura da imagem */
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+  }
+
+  .inicial {
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(238, 255, 0);
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(255, 0, 0);
+    margin: 20px;
+    position: relative; /* Adicionado para posicionar a imagem */
+  }
+  
+  .acertou {
+    text-align: center;
+    color: rgb(167, 167, 0);
+    background-color: rgb(255, 252, 59);
+    width: 150px;
+    height: 200px;
+    border: 15px solid yellow;
+    margin: 20px;
+    position: relative; /* Adicionado para posicionar a imagem */
+  }
+  
+  .errou {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background-color: rgb(34, 90, 36);
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(82, 70, 32);
+    margin: 20px;
+    position: relative; /* Adicionado para posicionar a imagem */
+  }
+  
+  .imagem-acerto, .imagem-erro {
+    position: absolute; /* Faz a imagem se posicionar sobre a div */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Ocupa 100% da largura */
+    height: 100%; /* Ocupa 100% da altura */
+    object-fit: cover; /* Cobre o espaço mantendo a proporção */
+  }
